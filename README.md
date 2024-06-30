@@ -1,11 +1,6 @@
-## My Project
+## AWS Amplify Godot Engine Template
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This repository provides a starter template for creating applications using Godot Engine and AWS Amplify, emphasizing easy setup for build and deployment for a web export of the [First 3D Game](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/)
 
 ## Security
 

@@ -1,0 +1,18 @@
+version: 1
+env:
+  - Name: _CUSTOM_IMAGE
+    Value: public.ecr.aws/f7u9w0t1/amplify-godot-engine:4.2.2
+frontend:
+    phases: 
+        build:
+            commands:
+                - cd game-client
+                - mkdir build
+                - godot --headless --verbose --export-release "Web"
+    artifacts:
+        baseDirectory: game-client/build
+        files:
+            - '**/*'  
+    cache:
+        paths:
+            - node_modules/
