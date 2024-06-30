@@ -1,8 +1,4 @@
 version: 1
-env:
-  variables:
-    key: _CUSTOM_IMAGE
-    value: public.ecr.aws/f7u9w0t1/amplify-godot-engine:4.2.2
 frontend:
     phases: 
         build:
