@@ -38,3 +38,11 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
+## Credits
+
+`Godot Engine` Copyright &copy; 2014-present [Godot Engine contributors](https://github.com/godotengine/godot/blob/master/AUTHORS.md), [Attribution](https://github.com/godotengine/godot/blob/master/LICENSE.txt). Source: https://github.com/godotengine/godot/
+
+`Godot Engine Documentation` Copyright &copy; 2007-present [Authors](https://github.com/godotengine/godot-docs/blob/master/AUTHORS.md), [CC-BY 3.0: Attribution](http://creativecommons.org/licenses/by/3.0/). Source: https://github.com/godotengine/godot-docs/
+
+`art/House In a Forest Loop.ogg` Copyright &copy; 2012 [HorrorPen](https://opengameart.org/users/horrorpen), [CC-BY 3.0: Attribution](http://creativecommons.org/licenses/by/3.0/). Source: https://opengameart.org/content/loop-house-in-a-forest
+
