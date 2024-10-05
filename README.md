@@ -15,5 +15,5 @@ This library is licensed under the MIT-0 License. See the [LICENSE](LICENSE.md) 
 
 ## Third Party Licenses
 
-See [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES) for more information.
+See [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES.md) for more information.
 
