@@ -1,7 +1,7 @@
 {
   "name": "amplify-godot-engine-template",
   "version": "1.0.0",
-  "description": "TODO: Fill this README out!",
+  "description": "This project will provide sample code and explanation on how to build and deploy a game with AWS Amplify. We are using the populare open source game engine Godot: https://godotengine.org/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
