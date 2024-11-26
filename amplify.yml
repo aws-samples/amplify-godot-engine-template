@@ -1,21 +1,31 @@
 version: 1
+env:
+  variables:
+    GAME_DIR: game
+    EXPORT_DIR: build
+
 backend:
     phases:
         build:
             commands:
                 - npm ci --cache .npm --prefer-offline
                 - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
-                - npx ampx generate outputs --branch $AWS_BRANCH --app-id $AWS_APP_ID --out-dir ./game-client
+
 frontend:
     phases: 
         build:
             commands:
-                # Export game for Web
-                - cd game-client
-                - mkdir build
-                - godot --headless --verbose --export-release "Web"
+                # Generate configuration
+                - npx ampx generate outputs --branch $AWS_BRANCH --app-id $AWS_APP_ID --out-dir ./$GAME_DIR
+                - AMPLIFY_OUTPUTS_FILE="$GAME_DIR/amplify_outputs.json"
+                - echo $AMPLIFY_OUTPUTS_FILE
+
+                # Build 'Web' game client
+                - mkdir -p "$GAME_DIR/$EXPORT_DIR"
+                - godot $PROJECT_DIR/project.godot --headless --verbose --export-release "Web" "$GAME_DIR/$EXPORT_DIR/Web"
+
     artifacts:
-        baseDirectory: game-client/build
+        baseDirectory: game/build/Web
         files:
             - '**/*'  
     cache:
