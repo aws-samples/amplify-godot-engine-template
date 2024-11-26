@@ -22,7 +22,7 @@ frontend:
 
                 # Build 'Web' game client
                 - mkdir -p "$GAME_DIR/$EXPORT_DIR"
-                - godot $PROJECT_DIR/project.godot --headless --verbose --export-release "Web" "$GAME_DIR/$EXPORT_DIR/Web"
+                - godot $GAME_DIR/project.godot --headless --verbose --export-release "Web" "$GAME_DIR/$EXPORT_DIR/Web"
 
     artifacts:
         baseDirectory: game/build/Web
