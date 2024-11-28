@@ -10,7 +10,7 @@ _Note: “The sample code; software libraries; command line tools; proofs of con
 
 ## Quickstart
 
-If you need more detailed explanation, you can use our [quicktstart](https://github.com/aws-samples/amplify-godot-engine/wiki/Create-a-New-Game) guidance or explore [labs](https://github.com/aws-samples/amplify-godot-engine/wiki) from the wiki.
+If you need step by step tutorials you can use our [quicktstarts](https://github.com/aws-samples/amplify-godot-engine/wiki/Create-a-New-Game) or explore [labs](https://github.com/aws-samples/amplify-godot-engine/wiki) on the wiki.
 
 ## Wiki
 
