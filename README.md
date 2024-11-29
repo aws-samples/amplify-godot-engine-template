@@ -1,5 +1,10 @@
 # AWS Amplify for Godot Engine - Template
 
+[![GitHub release](https://img.shields.io/github/release/aws-samples/amplify-godot-engine-template)](https://github.com//aws-samples/amplify-godot-engine-template/releases)
+[![Open Bugs](https://img.shields.io/github/issues/aws-samples/amplify-godot-engine-template/bug?color=d73a4a&label=bugs)](https://github.com/aws-samples/amplify-godot-engine-template/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Feature Requests](https://img.shields.io/github/issues/aws-samples/amplify-godot-engine-template/feature-request?color=ff9001&label=feature%20requests)](https://github.com/aws-samples/amplify-godot-engine-template/issues?q=is%3Aissue+label%3Afeature-request+is%3Aopen)
+[![Closed Issues](https://img.shields.io/github/issues-closed/aws-samples/amplify-godot-engine-template?color=%2325CC00&label=issues%20closed)](https://github.com/aws-samples/amplify-godot-engine-template/issues?q=is%3Aissue+is%3Aclosed+)
+
 ## Introduction
 
 This project contains an AWS Amplify project template to create, build, export and deploy Godot Engine projects on AWS.
